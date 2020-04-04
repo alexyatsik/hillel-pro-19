@@ -4,21 +4,20 @@
   "description": "A todo list using moment.js and bootstrap",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build --production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexyatsik/hillel-pro-17.git"
+    "url": "git+https://github.com/alexyatsik/hillel-pro-19.git"
   },
   "author": "Alexeii Yatsenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexyatsik/hillel-pro-17/issues"
+    "url": "https://github.com/alexyatsik/hillel-pro-19/issues"
   },
-  "homepage": "https://github.com/alexyatsik/hillel-pro-17#readme",
+  "homepage": "https://github.com/alexyatsik/hillel-pro-19#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "gulp-uglify": "^3.0.2",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "popper.js": "^1.16.1",
@@ -29,6 +28,9 @@
     "@babel/preset-env": "^7.9.0",
     "babel-preset-env": "^1.7.0",
     "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0"
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
   }
 }

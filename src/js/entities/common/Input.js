@@ -13,3 +13,4 @@ class Input extends DOMElement {
         this.element.classList.add('input-text');
     }
 }
+
