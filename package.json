@@ -18,9 +18,17 @@
   "homepage": "https://github.com/alexyatsik/hillel-pro-17#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gulp-uglify": "^3.0.2",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "popper.js": "^1.16.1",
     "serve": "^11.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
   }
 }

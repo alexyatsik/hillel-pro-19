@@ -4,6 +4,9 @@ function loadTodoList() {
     destroy('#todosList');
     const list = new TodoList(seek('#app'));
     const todosList = getLocalStorage('todos');
+    if (!todosList) {
+        return;
+    }
     for (let i = 0; i < todosList.length; i++) {
         Object.setPrototypeOf(todosList[i], new Todo);
         list.addTodo(todosList[i]);
@@ -51,7 +54,7 @@ function isInputCorrect(form) {
 }
 
 function getApis() {
-    fetch('src/js/data.json')
+    fetch('data.json')
         .then(res => {
             return res.json();
         })
